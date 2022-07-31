@@ -1,25 +1,20 @@
 <script setup lang="ts">
 // This starter template is using Vue 3 <script setup> SFCs
 // Check out https://vuejs.org/api/sfc-script-setup.html#script-setup
-import HelloWorld from './components/HelloWorld.vue'
 import Test from './components/Test'
-const onClick = () => {
-  console.log('tsx emit')
-}
+import SButton from './button/src/Button'
 </script>
 
 <template>
-  <HelloWorld msg="Vite + Vue" />
-  <Test @click="onClick">
-    <template #default>aaa</template>
-    <template #title><h3>title</h3></template>
-  </Test>
+  <test></test>
   <!-- 1.primary,secondary,text -->
   <!-- 2.尺寸size -->
   <!-- 3.disabled -->
   <!-- 4.块级block -->
   <!-- 5.iconbutton -->
-  <SButton></SButton>
+  <s-button type="primary">确定</s-button>
+  <SButton>取消</SButton>
+  <h1 class="text-3xl font-bold underline">Hello World!</h1>
 </template>
 
 <style scoped>
