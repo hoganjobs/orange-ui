@@ -3,5 +3,6 @@ import './style.css'
 import App from './App.vue'
 // 引入主样式文件
 import './index.scss'
+import Button from './button'
 
-createApp(App).mount('#app')
+createApp(App).use(Button).mount('#app')

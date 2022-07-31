@@ -14,6 +14,12 @@ const onClick = () => {
     <template #default>aaa</template>
     <template #title><h3>title</h3></template>
   </Test>
+  <!-- 1.primary,secondary,text -->
+  <!-- 2.尺寸size -->
+  <!-- 3.disabled -->
+  <!-- 4.块级block -->
+  <!-- 5.iconbutton -->
+  <SButton></SButton>
 </template>
 
 <style scoped>
