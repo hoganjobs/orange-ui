@@ -10,4 +10,7 @@
 
   // 导入hover等伪类
   @include button-variant(button-config.$pseudo, true);
+
+  // 导入size相关的样式
+  @include button-variant(button-config.$size);
 }

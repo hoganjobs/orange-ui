@@ -12,7 +12,9 @@ import SButton from './button/src/Button'
   <!-- 3.disabled -->
   <!-- 4.块级block -->
   <!-- 5.iconbutton -->
-  <s-button type="primary">确定</s-button>
+  <s-button type="primary" size="small">确定</s-button>
+  <s-button type="primary" size="medium">确定</s-button>
+  <s-button type="primary" size="large">确定</s-button>
   <SButton>取消</SButton>
   <h1 class="text-3xl font-bold underline">Hello World!</h1>
 </template>
