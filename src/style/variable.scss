@@ -9,9 +9,13 @@ $s-animation-ease-in-out-smooth: var(
 );
 $s-light-text: var(--s-light-text, #ffffff); // 有色深色背景下字体颜色（固定）
 $s-primary: var(--s-primary, #5e7ce0); // 主要按钮，同品牌色
+$s-primary-disabled: var(--s-primary-disabled, #879ada); // 主要按钮禁用
 $s-primary-hover: var(--s-primary-hover, #7693f5); // 主要按钮悬停
 $s-primary-active: var(--s-primary-active, #344899); // 主要按钮激活
 $s-text: var(--s-text, #252b3a); // 正文文本
+$s-disabled-text: var(--s-disabled-text, #8891a7); // 正文文本禁用
+$s-disabled-bg: var(--s-disabled-bg, #c2cce5); // 正文背景
+$s-disabled-line: var(--s-disabled-line, #a9b0c0); // 
 $s-block: var(
   --s-block,
   #ffffff
@@ -26,7 +30,8 @@ $s-brand-active-focus: var(
   --s-brand-active-focus,
   #344899
 ); // 品牌色焦点色（重度加深）
-
+// 尺寸
 $s-font-size-sm: var(--s-font-size-md, 10px); //当组件size为''时使用此字号大小
 $s-font-size-md: var(--s-font-size-md, 12px); //当组件size为''时使用此字号大小
 $s-font-size-lg: var(--s-font-size-md, 14px); //当组件size为''时使用此字号大小
+

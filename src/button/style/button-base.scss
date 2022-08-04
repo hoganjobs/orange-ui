@@ -25,6 +25,11 @@
     background-color $s-animation-duration-slow $s-animation-ease-in-out-smooth,
     border-color $s-animation-duration-slow $s-animation-ease-in-out-smooth,
     color $s-animation-duration-slow $s-animation-ease-in-out-smooth;
+  
+  //禁用状态
+  &[disabled] {
+    @apply cursor-not-allowed
+  }
 }
 
 @mixin button-variant($variant, $pseudo: false) {

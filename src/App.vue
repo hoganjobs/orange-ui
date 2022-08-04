@@ -3,6 +3,9 @@
 // Check out https://vuejs.org/api/sfc-script-setup.html#script-setup
 import Test from './components/Test'
 import SButton from './button/src/Button'
+function comfirm() {
+  console.log('!comfirm')
+}
 </script>
 
 <template>
@@ -12,9 +15,11 @@ import SButton from './button/src/Button'
   <!-- 3.disabled -->
   <!-- 4.块级block -->
   <!-- 5.iconbutton -->
-  <s-button type="primary" size="small">确定</s-button>
-  <s-button type="primary" size="medium">确定</s-button>
   <s-button type="primary" size="large">确定</s-button>
+  <s-button type="primary" size="medium" @click="comfirm">确定</s-button>
+  <s-button type="primary" size="small" disabled @click="comfirm"
+    >确定</s-button
+  >
   <SButton>取消</SButton>
   <h1 class="text-3xl font-bold underline">Hello World!</h1>
 </template>
