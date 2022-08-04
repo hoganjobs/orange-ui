@@ -15,7 +15,7 @@ function comfirm() {
   <!-- 3.disabled -->
   <!-- 4.块级block -->
   <!-- 5.iconbutton -->
-  <s-button type="primary" size="large">确定</s-button>
+  <s-button type="primary" size="large" block>确定</s-button>
   <s-button type="primary" size="medium" @click="comfirm">确定</s-button>
   <s-button type="primary" size="small" disabled @click="comfirm"
     >确定</s-button

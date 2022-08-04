@@ -30,6 +30,11 @@
   &[disabled] {
     @apply cursor-not-allowed
   }
+
+  // 块级
+  &.s-btn--block {
+    @apply block w-full
+  }
 }
 
 @mixin button-variant($variant, $pseudo: false) {
